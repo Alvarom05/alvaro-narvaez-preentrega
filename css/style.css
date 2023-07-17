@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: guarito-fonts;
+    src: url("../assets/fonts/Platinum\ Sign\ Over.ttf");
+}
+.body{
+    background-image: url("../assets/img/fondo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-div-logo{
+    width: 20px;
+    height: 20px;
+}
+.header-div h1{
+    font-family: guarito-fonts;
+    color: rgb(223, 61, 235);
+}
+.header-div ul{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    background-color: grey;
+    font-style: normal;
+}
+.nav-navbar li a{
+    list-style: none;
+    text-decoration: none;   
+    font-size: 30px;
+    color: rgb(32, 194, 191);
+    text-align: center;
+}
+.section-cards{
+    width: 18.75rem;
+    height: 25rem;
+}
+.cards-uno{
+    background-color: greenyellow;
+    font-size: 30px;
+}
+.cards-dos{
+    background-color: rgb(201, 74, 184);
+    font-size: 30px;
+}
+.cards-tres{
+    background-color: red;
+    font-size: 30px;
+}
+.cards-cuatro{
+    background-color: rgb(30, 134, 150);
+    font-size: 30px;
+}
+.footer{
+    background-color: rgba(158, 155, 155, 0.885);
+    font-size: 10px;
+}
