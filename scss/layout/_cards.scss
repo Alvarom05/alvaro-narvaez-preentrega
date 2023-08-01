@@ -1,0 +1,26 @@
+.section-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    width: 100px;
+    height: 30rem;
+}
+.section-div-card-uno{
+    flex-direction: column;
+    background-color: greenyellow;
+    font-size: 100px;
+}
+.cards-dos{
+    background-color: rgb(201, 74, 184);
+    font-size: 30px;
+}
+.cards-tres{
+    background-color: red;
+    font-size: 30px;
+}
+.cards-cuatro{
+    background-color: rgb(30, 134, 150);
+    font-size: 30px;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    body {
+    font-size: 14px;
+    line-height: 1.4;
+    }
+    .header-div{
+        font-size: 14px;
+        grid-area: auto;
+    }
+    .nav-navbar{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: row;
+    }
+}

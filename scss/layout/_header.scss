@@ -1,0 +1,39 @@
+.header{
+        h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        font-family: guarito-fonts;
+        font-size: 150px;
+        color: rgb(223, 61, 235);
+        }
+            logo{
+            display: flex;
+            justify-items: right;
+            align-items: end;
+            width: 50%;
+            height: auto;
+            }
+                buscar{
+                display: flex;
+                justify-content: end;
+                align-items: end;
+                list-style: none;
+                text-decoration: none;
+                }
+                    ul{
+                    display: flex;
+                    justify-content: end;
+                    align-items: end;
+                    gap: 20px;
+                    list-style: none;
+                    text-decoration: none;    
+                    font-size: 40px;
+                    }
+                        div{
+                        display: flex;
+                        justify-content: right;
+                        gap: 100px;
+                        }
+}

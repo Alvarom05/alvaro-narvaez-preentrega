@@ -1,209 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-@font-face {
-    font-family: guarito-fonts;
-    src: url("../assets/fonts/Platinum\ Sign\ Over.ttf");
-}
-/* Estilos generales para pantallas más grandes */
-body {
-  font-size: 16px;
-  line-height: 1.6;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-/* Media Query para pantallas de 768px o menos */
-@media (max-width: 768px) {
-    body {
-    font-size: 14px;
-    line-height: 1.4;
-    }
-    .header-div{
-        font-size: 14px;
-        grid-area: auto;
-    }
-    .nav-navbar{
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: row;
-    }
-}
+.body {
+  background-image: url("../assets/img/fondo.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
+  background-size: cover; }
 
-.body{
-    background-image: url("../assets/img/fondo.jpg") ;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-}
-.header div{
-    display: flex;
-    justify-content: right;
-    gap: 100px;
-}
-.header-div-logo{
-    display: flex;
-    justify-items: right;
-    align-items: end;
-    width: 50%;
-    height: auto;
-}
-.header-div h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    font-family: guarito-fonts;
-    font-size: 150px;
-    color: rgb(223, 61, 235);
-}
-.header-div-buscar{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    list-style: none;
-    text-decoration: none;
-}
-.header-div-buscar-ul{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    gap: 20px;
-    list-style: none;
-    text-decoration: none;    
-    font-size: 40px;
-}
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    list-style: none;
-    background-color: grey;
-    font-style: bold;
-}
-.nav-navbar li a{
-    flex-direction: row;
-    list-style: none;
-    text-decoration: none;   
-    font-size: 30px;
-    color: rgb(32, 194, 191);
-    text-align: center;
-}
-.section-cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 20px;
-    width: 100px;
-    height: 30rem;
-}
-.section-div-card-uno{
-    flex-direction: column;
-    background-color: greenyellow;
-    font-size: 100px;
-}
-.cards-dos{
-    background-color: rgb(201, 74, 184);
-    font-size: 30px;
-}
-.cards-tres{
-    background-color: red;
-    font-size: 30px;
-}
-.cards-cuatro{
-    background-color: rgb(30, 134, 150);
-    font-size: 30px;
-}
-.footer{
-    display: flex;
-    flex-direction: space-around;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(158, 155, 155, 0.885);
-    font-size: 20px;
-    color: whitesmoke;
-    gap: 100px;
-}
+.header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-family: guarito-fonts;
+  font-size: 150px;
+  color: #df3deb; }
 
-/*PC ARMADAS*/
+.header logo {
+  display: flex;
+  justify-items: right;
+  align-items: end;
+  width: 50%;
+  height: auto; }
 
-.body-pc{
-    background-image: url("../assets/img/fondo.jpg") ;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-}
-.titulo-pc{
-background-color: rgb(255, 230, 0);
-font-size: 30px;
-}
-.header-div-pc{
-    display: flex;
-    justify-content: right;
-    gap: 100px;
-}
-.header-div-logo-pc{
-    display: flex;
-    justify-items: right;
-    align-items: end;
-    width: 50%;
-    height: auto;
-}
-.header-div-h1-pc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    font-family: guarito-fonts;
-    font-size: 150px;
-    color: rgb(223, 61, 235);
-}
-.header-div-buscar-pc{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    list-style: none;
-    text-decoration: none;
-}
-.header-div-buscar-ul-pc{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    gap: 20px;
-    list-style: none;
-    text-decoration: none;    
-    font-size: 40px;
-}
-.navbar-pc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-    list-style: none;
-    background-color: grey;
-    font-style: bold;
-}
-.nav-navbar-li-a-pc{
-    flex-direction: row;
-    list-style: none;
-    text-decoration: none;   
-    font-size: 30px;
-    color: rgb(32, 194, 191);
-    text-align: center;
-}
-.footer-pc{
-    display: flex;
-    flex-direction: space-around;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(158, 155, 155, 0.885);
-    font-size: 20px;
-    color: whitesmoke;
-    gap: 100px;
-}
+.header buscar {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  list-style: none;
+  text-decoration: none; }
+
+.header ul {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 40px; }
+
+.header div {
+  display: flex;
+  justify-content: right;
+  gap: 100px; }
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  list-style: none;
+  background-color: grey;
+  font-style: bold; }
+
+.navbar li a {
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: #20c2bf;
+  text-align: center; }
+
+.footer {
+  display: flex;
+  flex-direction: space-around;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(158, 155, 155, 0.885);
+  font-size: 20px;
+  color: whitesmoke;
+  gap: 100px; }
