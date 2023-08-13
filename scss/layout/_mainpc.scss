@@ -1,0 +1,146 @@
+.titulopcarm{
+    display: flex;
+    margin-left: 650px;
+    position: absolute;
+    bottom: 320px;
+    background-color: $color-text-titulopc;
+    border-top-left-radius: 30px;
+    padding-left: 30px;
+    width: 20%;
+    font-size: 25px;
+    color: $color-text-titulo2;
+    gap: 40px;
+}
+.pcgamer{
+    display: flex;
+    margin-right: 550px;
+    position: absolute;
+    bottom: 250px;
+    background-color: $color-fondopc;
+    border-top-left-radius: 30px;
+    padding-left: 50px;
+    width: 15%;
+    font-size: 25px;
+    color: white;
+}
+
+.gridpc{
+    display: grid;
+    margin-left: 150px;
+    grid-template-columns: 250px 300px 200;
+    grid-template-rows: 600px 600px 0;
+    gap: 0px 0px;
+    justify-items: center;
+    grid-template-areas: 
+    "main main main" 
+    "main main main"
+    "main main main";
+    .contenedorpc1{
+        position: relative;
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 170px;
+        margin-right: 900px;
+        .imagenpcg1{
+            padding-top: 15px;
+            width: 15px;
+        }
+        .gamer1{
+            background-color: rgba(84, 198, 66, 1)
+            border-radius 40%;
+            padding-right: 100px;
+            color: white;
+            font-size: 20px;
+            font-style: bold;
+        }
+    }
+    .contenedorpc2{
+        position: relative;
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 200px;
+        margin-block-start: 100px;
+        margin-right: 950px;
+        .imagenpcg2{
+            padding-top: 15px;
+            width: 250px;
+        }
+        .gamer2{
+            background-color: rgba(84, 198, 66, 1)
+            border-radius 40%;
+            padding-right: 100px;
+            color: white;
+            font-size: 20px;
+            font-style: bold;
+        }
+    }
+    .contenedorpc3{
+        position: relative;
+        grid-column: 3;
+        grid-row: 1;
+        margin-top: 200px;
+        margin-left: 20px;
+        .imagenpcg3{
+            padding-top: 15px;
+            width: 250px;
+        }
+        .gamer3{
+            background-color: rgba(84, 198, 66, 1)
+            border-radius 40%;
+            padding-right: 100px;
+            color: white;
+            font-size: 20px;
+            font-style: bold;
+        }
+    }
+}
+.div-pcdis{
+    display: flex;
+    margin-right: 550px;
+    position: absolute;
+    bottom: 250px;
+    background-color: $color-text-titulo;
+    border-top-left-radius: 30px;
+    padding-left: 50px;
+    width: 15%;
+    font-size: 25px;
+    color: white;
+}
+.contenedorpc4{
+    display: grid;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    margin-block-end: 200px;
+    margin-left: 20px;
+    .imagenpcdis{
+        padding-top: 15px;
+        width: 40px;
+    }
+    .pcdis{
+        background-color: rgba(84, 198, 66, 1)
+        border-radius 40%;
+        padding-right: 100px;
+        color: white;
+        font-size: 20px;
+        font-style: bold;
+    }
+    .contenedorpc5{
+        position: relative;
+        grid-column: 2;
+        grid-row: 2;
+        margin-left: 20px;
+        .imagenpchog{
+            padding-top: 15px;
+            width: 70px;
+        }
+        .pchog{
+            background-color: rgba(84, 198, 66, 1)
+            border-radius 40%;
+            padding-right: 100px;
+            color: white;
+            font-size: 20px;
+            font-style: bold;
+        }
+    }
+}

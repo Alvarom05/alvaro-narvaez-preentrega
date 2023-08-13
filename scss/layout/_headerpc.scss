@@ -1,7 +1,7 @@
-.titulos1 {
+.titulos1-pc{
     display: flex;
     justify-content: space-between;
-    .tituloprincipal{
+    .tituloprincipal-pc{
         color: #b603b6;
         font-style: italic;
         font-weight: extra bold;
@@ -9,42 +9,41 @@
             color: whitesmoke;
         }
     }
-    .guarito div h1 {
+    .guarito-pc div h1 {
         font-size: 100px;
         margin-left: 20px;
         margin-top: 25px; 
     }
-    .guarito {
+    .guarito-pc {
         margin: 20px;
         display: flex;
         flex-direction: row;
     }
-    .guarito img {
+    .guarito-pc img {
         width: 100px;
         border-radius: 50%;
         margin-top: 40px;
     }
 }
-
-.search{
+.search-pc{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 90px;
     gap: 5px; 
-    .login{
+    .login-pc{
         font-size: 25px;
         color: #b603b6;
         text-decoration: none;
     }
-    .carrito{
+    .carrito-pc{
         width: 100px;
         height: auto;
         padding-top: 10px;
     }
 }
-.barra{
-    width: 100px;
-    height: auto;
+.barra-pc{
+    width: 20px;
+    height: 10px;
     margin-top: 0px;
 }

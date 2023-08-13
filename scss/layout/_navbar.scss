@@ -1,19 +1,18 @@
-.navbar{
-        ul{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 100px;
-            list-style: none;
-            background-color: grey;
-            font-style: bold;
-        }
-                li a{
-                flex-direction: row;
+.navbar {
+        ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 90px;
                 list-style: none;
-                text-decoration: none;   
-                font-size: 30px;
-                color: rgb(32, 194, 191);
-                text-align: center;
+                font-style: bold;
+                li a {
+                        flex-direction: row;
+                        list-style: none;
+                        text-decoration: none;
+                        font-size: 40px;
+                        color: rgb(32, 194, 191);
+                        text-align: center;
                 }
+        }
 }
