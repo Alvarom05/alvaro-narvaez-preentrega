@@ -1,5 +1,5 @@
 #Proyecto Alvaro Narvaez
->Este es un proyecto para cumplir con la segunda preentrega
+>Este es un proyecto para cumplir con la Entrega Final del curso Desarrollo Web
 
 ##Lenguajes aplicados
 -HTML
