@@ -1,18 +1,18 @@
-@media (max-width:768px){
+@media (max-width:360px){
     .header{
         background-color: rgb(62, 226, 172);
         justify-content: space-around;
         .titulos1{
             .tituloprincipal{
-            color: rgba(255, 255, 255, 0.711);
+            color: rgba(255, 255, 255, 0.916);
             font-style: normal;
-            font-size: 70px;
+            font-size: 30px;
             &:hover{
-                color: red;
+                color: rgb(30, 30, 213);
             }
             }
             .guarito img {
-                width: 60px;
+                width: 40px;
                 border-radius: 50%;        
             }
             }
@@ -31,15 +31,15 @@
         }
         .footer{
             display: flex;
-            flex-direction: space-around;
+            flex-direction: space-between;
             justify-content: center;
             align-items: center;
-            background-color: rgba(245, 245, 245, 0.167);
-            font-size: 10px;
-            color: rgb(14, 226, 208);
-            gap: 40px;
+            background-color: rgb(245, 245, 245);
+            font-size: 8px;
+            color: rgb(233, 45, 45);
+            gap: 20px;
             .img{
-                width: 10px;
+                width: 5px;
             }
         }
     }
